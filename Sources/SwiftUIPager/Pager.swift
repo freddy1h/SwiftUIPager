@@ -181,7 +181,7 @@ public struct Pager<Element, ID, PageView>: View  where PageView: View, Element:
         GeometryReader { proxy in
             self.content(for: proxy.size)
         }
-        .clipped()
+//        .clipped()
     }
 
     func content(for size: CGSize) -> PagerContent {
